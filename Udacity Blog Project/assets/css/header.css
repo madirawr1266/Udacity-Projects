@@ -1,0 +1,20 @@
+.header {
+    grid-area: hd;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    background-color: #210478;
+    color:aliceblue;     
+}   
+
+#body {
+    background-color: rgba(8, 125, 146, 0.982);
+    color:aliceblue;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
