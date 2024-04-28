@@ -2,52 +2,75 @@
 <html>
     <head>
         <title>A Healer's Journey</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/Udacity Blog Project/assets/css/index.css">
+        <script src="https://kit.fontawesome.com/cdbec4ceaa.js" crossorigin="anonymous"></script>
     </head>
     <body id="body">
         <div class="container">
-            <div class="header">
+            <main class="header">
                 <h1>A Healer's Journey</h1>
-            </div>
-            <div class="top_nav">
-                <ul>
-                    <li><a href="Holy Paladin/paladin.html">Holy Paladin</a></li>
-                    <li><a href="Holy Priest/priest.html">Holy Priest</a></li>
-                    <li><a href="Mistweaver Monk/mistweaver.html">Mistweaver Monk</a></li>
-                    <li><a href="#contact">Contact Information</a></li>
+            </main>
+            <nav id="nav_bar">
+                <ul id="nav_list">
+                    <li id="nav_home">
+                        <a href="/Udacity Blog Project/index.html">Home</a>
+                    </li>
+                    <li id="nav_item">
+                        <a href="/Udacity Blog Project/assets/pages/paladin.html">Holy Paladin</a>
+                    </li>
+                    <li id="nav_item02">
+                        <a href="/Udacity Blog Project/assets/pages/priest.html">Holy Priest</a>
+                    </li>
+                    <li id="nav_item03">
+                        <a href="/Udacity Blog Project/assets/pages/mistweaver.html">Mistweaver Monk</a>
+                    </li>
+                    <li id="nav_item04">
+                        <a href="#contact">Contact Information</a>
+                    </li>
                 </ul>
-            </div>
-            <div class="about_author">
+            </nav>
+            <article class="about_author">
                 <h2>About the Author</h2>
-                <img src="Gallery/me and my character.png" alt="Me and my favorite WoW character">
-                <p> I am a mom of 2 boys who currently works in IT for Colorado Springs School District 11. I enjoy producing art and playing video games in my free time. I've spent over a decade mastering the art of healing my comrades in World of Warcraft. This healing log is my viewpoint of each adventure. Below you'll find my daily entries based on each class I've played.</p>
-            </div>
-            <div class="blog_post_1">
-                <h2><a href="/Udacity Blog Project/Holy Paladin/paladin.html">Paladin</a></h2>
+                <img src="/Udacity Blog Project/assets/images/me and my character.png" alt="Me and my favorite WoW character">
+                <p> I am a mom of 2 boys who currently works in IT for Colorado Springs School District 11. I enjoy producing art and playing video games in my free time. I've spent over a decade mastering the art of healing my comrades in World of Warcraft. This healing log is my viewpoint of each adventure. Below you'll find my daily entries based on each class I've played.     
+                </p>
+            </article>
+            <article id="quote">
+                <p>
+                    <q cite="https://www.southernliving.com/culture/healing-quotes">Healing takes courage, and we all have courage, even if we have to dig a little to find it.
+                    </q> - Tori Amos
+                </p>
+            </article>                   
+            <section class="blog_post_1">
+                <h2><a href="/Udacity Blog Project/assets/pages/paladin.html">Paladin</a></h2>
                 <h3>Latest Post: 04/15/24</h3>
-                <a href="Holy Paladin/paladin.html"><img src="/Udacity Blog Project/Gallery/Jeannedarc2.png" alt="Holy Paladin"></a>
-            </div>
-            <div class="blog_post_2">
-                <h2><a href="/Udacity Blog Project/Holy Priest/priest.html">Holy Priest</a></h2>
+                <a href="/Udacity Blog Project/assets/pages/paladin.html"><img src="/Udacity Blog Project/assets/images/Jeannedarc2.png" alt="Holy Paladin"></a>
+            </section>
+            <section class="blog_post_2">
+                <h2><a href="/Udacity Blog Project/assets/pages/priest.html">Holy Priest</a></h2>
                 <h3>Coming Soon</h3>
-                <a href="Holy Priest/priest.html"><img src="/Udacity Blog Project/Gallery/CHASCA4.png" alt="Holy Priest"></a>
-            </div>
-            <div class="blog_post_3">
-                <h2><a href="/Udacity Blog Project/Mistweaver Monk/mistweaver.html">Mistweaver Monk</a></h2>
+                <a href="/Udacity Blog Project/assets/pages/priest.html"><img src="/Udacity Blog Project/assets/images/CHASCA4.png" alt="Holy Priest"></a>
+            </section>
+            <section class="blog_post_3">
+                <h2><a href="/Udacity Blog Project/assets/pages/mistweaver.html">Mistweaver Monk</a></h2>
                 <h3>Coming Soon</h3>
-                <a href="/Udacity Blog Project/Mistweaver Monk/mistweaver.html"><img src="\Udacity Blog Project/Gallery/kASUMI 3.png"></a>
-            </div> 
-            <div class="cool_pic">
+                <a href="/Udacity Blog Project/assets/pages/mistweaver.html"><img src="/Udacity Blog Project/assets/images/kASUMI 3.png"></a>
+            </section> 
+            <section class="cool_pic">
                 <h2>Gallery</h2>
                 <h3>Coming Soon</h3>
-                <img src="/Udacity Blog Project/Gallery/Horde Symbol.jpg">
-            </div>
-            <div class="footer" id="contact">
+                <img src="/Udacity Blog Project/assets/images/Horde Symbol.jpg">
+            </section>
+            <footer class="footer" id="contact">
                 <h2>Contact Information</h2>
                 <p>Have questions? Contact me via:</p>
-                <a href="https://www.facebook.com/Simsgirl246">Facebook</a>
-                <a href="https://www.linkedin.com/in/madison-hawman-51030b193/">Linkedin</a>
-            </div>
+                <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/Simsgirl246">Facebook</a></i>
+                <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/madison-hawman-51030b193/">Linkedin</a></i>
+                <form action="/subscribe" method="post">
+                    <input type="email" name="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                  </form>
+            </footer>
         </div> 
     </body>
 </html>
